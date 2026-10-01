@@ -1,0 +1,13 @@
+{
+  "name": "sahmk",
+  "version": "1.0.0",
+  "description": "Access Saudi stock market quotes, financials, dividends, ratios, and historical data through SAHMK.",
+  "repository": "https://github.com/sahmk-sa/sahmk-gemini-extension",
+  "mcpServers": {
+    "sahmk": {
+      "httpUrl": "https://mcp.sahmk.sa/mcp",
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
