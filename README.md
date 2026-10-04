@@ -10,9 +10,16 @@ SAHMK is a read-only data source for companies listed on the Saudi Exchange (Tad
 | `get_quote` | A single stock quote |
 | `get_quotes` | Quotes for several symbols |
 | `get_market_summary` | TASI or NOMU market summary |
+| `get_market_movers` | Top gainers, losers, volume leaders, or value leaders |
+| `get_sectors` | Sector performance |
+| `get_company` | Company profile for an exact symbol |
 | `get_financials` | Financial statements |
 | `get_ratios` | Financial ratios |
+| `compare_symbols` | Side-by-side company comparison |
 | `get_dividends` | Dividend history |
+| `get_depth` | Order-book depth (Market Depth entitlement) |
+| `get_trades` | Recent trade prints (Pro and above) |
+| `get_events` | Stock event summaries (Pro and above) |
 | `get_historical` | Historical prices |
 
 ## Endpoint
